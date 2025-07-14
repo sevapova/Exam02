@@ -32,7 +32,7 @@ def divide(a, b):
     return a / b
 
 def main():
-    try:
+    
         a = float(input("Birinchi son: "))
         op = input("Amal (+, -, *, /): ")
         b = float(input("Ikkinchi son: "))
@@ -49,7 +49,6 @@ def main():
             result = "Xato!"
 
         print("Natija:", result)
-    except ValueError:
-        print("Xato!")
+
 
 main()

@@ -31,13 +31,11 @@ def calculate_net_salary(salary):
     return tax, net_salary
 
 def main():
-    try:
+   
         salary = int(input("Maoshni kiriting: "))
         tax, x = calculate_net_salary(salary)
         print(f"Soliq: {tax:,}")
         print(f"Maosh: {x:,}")
 
-    except ValueError:
-        print("Xatolik!")
-
+    
 main()

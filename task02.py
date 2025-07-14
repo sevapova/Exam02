@@ -51,7 +51,7 @@ def main():
         balance, x = withdraw(balance, amount)
         print(y)
     elif x == "check":
-        _, y = check_balance(balance)
+        y = check_balance(balance)
         print(y)
     else:
         print("Xato!")

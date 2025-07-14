@@ -13,6 +13,6 @@ def count_words(text):
 def run_word_counter():
     text = input("Matnni kiriting: ")
     result = count_words(text)
-    print("So‘zlar soni:", result)
+    print("So'zlar soni:", result)
 
 run_word_counter()
